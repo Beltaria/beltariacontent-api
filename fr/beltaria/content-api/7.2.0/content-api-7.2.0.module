@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "fr.beltaria",
+    "module": "content-api",
+    "version": "7.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "content-api-7.2.0.jar",
+          "url": "content-api-7.2.0.jar",
+          "size": 1426,
+          "sha512": "5786f7d01452d3398cb07a9555827f7e8eeb8d886be42d644ddf873d06648ff938d607b306624ba08b1dea243b9425e11f6b0b3dcc57d40b1cf187ca29425390",
+          "sha256": "2af315996563ccda3360a90d06ea1611c26155567d30d125719399ffea1aef7d",
+          "sha1": "f8a6dd16270f28b7ab3ee9d00a948ac482cdf8b0",
+          "md5": "26391d43defea9835066a43776a33ccb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "content-api-7.2.0.jar",
+          "url": "content-api-7.2.0.jar",
+          "size": 1426,
+          "sha512": "5786f7d01452d3398cb07a9555827f7e8eeb8d886be42d644ddf873d06648ff938d607b306624ba08b1dea243b9425e11f6b0b3dcc57d40b1cf187ca29425390",
+          "sha256": "2af315996563ccda3360a90d06ea1611c26155567d30d125719399ffea1aef7d",
+          "sha1": "f8a6dd16270f28b7ab3ee9d00a948ac482cdf8b0",
+          "md5": "26391d43defea9835066a43776a33ccb"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "content-api-7.2.0-sources.jar",
+          "url": "content-api-7.2.0-sources.jar",
+          "size": 2204,
+          "sha512": "496988f7e25597db326a2c1923bcf18df8254d3b12ffcf92e21fa2beb1f163b1d205d3d4cdc475a379d941dc17865d99ee63afccde283198ca6aaa3c416c6d66",
+          "sha256": "f5b6ccc712237c214ea5ff5d8ffe5bfe48114e969e0bf29b7d1a47d290b6040d",
+          "sha1": "280ef579eb2fe96c974920be304d11cffd81a93a",
+          "md5": "a57246460160f8d2649f264d52b6e154"
+        }
+      ]
+    }
+  ]
+}
