@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "fr.beltaria",
+    "module": "content-api",
+    "version": "10.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "content-api-10.0.0.jar",
+          "url": "content-api-10.0.0.jar",
+          "size": 12910,
+          "sha512": "c798dcb383fd3ed281c6f92de037846b88845f6e02cdb4e88ed6e39bcf084611cd240a31d73cbc0eb179747edd9ac190bc484df7d97efe245c0a24f17887b6c7",
+          "sha256": "61b1f28f82e51b17fb6779a517faf18f166cf10bb0ae83db996a317a9eff0004",
+          "sha1": "ede90e36c22bf3309b5c9102f3b58e0eff42ef8d",
+          "md5": "727e6d37c17a5133d0cb4a4a422eb264"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "content-api-10.0.0.jar",
+          "url": "content-api-10.0.0.jar",
+          "size": 12910,
+          "sha512": "c798dcb383fd3ed281c6f92de037846b88845f6e02cdb4e88ed6e39bcf084611cd240a31d73cbc0eb179747edd9ac190bc484df7d97efe245c0a24f17887b6c7",
+          "sha256": "61b1f28f82e51b17fb6779a517faf18f166cf10bb0ae83db996a317a9eff0004",
+          "sha1": "ede90e36c22bf3309b5c9102f3b58e0eff42ef8d",
+          "md5": "727e6d37c17a5133d0cb4a4a422eb264"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "content-api-10.0.0-sources.jar",
+          "url": "content-api-10.0.0-sources.jar",
+          "size": 11174,
+          "sha512": "1fe8b4f196158fc123e53209a850c2cc488c07b048b2750f2f01890ffe6ff4bafb1741a7b3c84a37448f13ce912a1c5696e4c0e41a1098da078c0103d566b383",
+          "sha256": "72b628c18284e1314db3b679582d6cd0649aa1840a4aa94102b7334b7fcc93c8",
+          "sha1": "61efc92f09245a4ef77506166eb2c437c95203ed",
+          "md5": "d0b909d9c2c109cb46b310c330e5a0df"
+        }
+      ]
+    }
+  ]
+}
